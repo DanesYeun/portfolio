@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'MartianMono';
+    src: url(D:\App\portfolio\src\assets\fonts\MartianMono-Regular.ttf) format('truetype');
+}
+
+h1{
+    font-family: 'MartianMono';
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'MartianMono';
+    font-size:18px;
+}
+
+body{
+    font-family: 'MartianMono';
+    font-size: 12px;
+}
