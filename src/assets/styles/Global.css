@@ -5,13 +5,21 @@
 
 h1{
     font-family: 'MartianMono';
-    font-size: 28px;
+    font-size: xx-large;
     font-weight: bold;
 }
 
 h2{
     font-family: 'MartianMono';
-    font-size:18px;
+    font-size: large;
+}
+h3{
+    font-family: 'MartianMono';
+    font-size: medium;
+}
+h4{
+    font-family: 'MartianMono';
+    font-size: small;
 }
 
 body{
