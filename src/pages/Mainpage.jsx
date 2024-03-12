@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navigation/navbar";
 import About from '../components/Content/About';
 import Contact from '../components/Content/Contact';
 import Projects from "../components/Content/Projects";
@@ -19,11 +19,11 @@ const Mainpage = () => {
     }
 
     return(
-        <div className="border w-full h-full flex flex-col p-2">       
-            <div className="w-full h-14 flex justify-center mb-4">
+        <div className="border w-full h-full flex flex-col md:p-2">       
+            <div className="w-full h-14 flex justify-center mt-2 mb-4 overflow-hidden">
                 <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
             </div>
-            <div className="w-full h-full flex-grow overflow-hidden">
+            <div className="w-full h-full flex-grow overflow-x-hidden md:overflow-hidden">
                 {getContent(activeTab)}
             </div>           
         </div>

@@ -2,6 +2,12 @@
     font-family: 'MartianMono';
     src: url(D:\App\portfolio\src\assets\fonts\MartianMono-Regular.ttf) format('truetype');
 }
+@media (max-width: 768px) {
+    .navbar {
+      max-height: 100vh; /* Adjust the height as needed */
+      overflow-y: auto; /* Add scroll if necessary */
+    }
+}
 
 h1{
     font-family: 'MartianMono';
@@ -21,8 +27,13 @@ h4{
     font-family: 'MartianMono';
     font-size: small;
 }
+h5{
+    font-family: 'MartianMono';
+    font-size: xx-small;
+}
 
 body{
     font-family: 'MartianMono';
     font-size: 12px;
 }
+
