@@ -34,7 +34,7 @@ const About = () => {
                         <body className="text-xs mb-4">Hey there! 🚀 Computer engineering grad turned DevOps Developer at CoreDev Solutions Inc. 🛠️ Passionate about MySQL, React, .NET, embedded systems, and electronics 💻 Let's craft the future together!</body>
                         <div className="w-full flex justify-center">
                             <button 
-                                className="bg-red-400 w-1/4 h-14 rounded-lg hover:bg-blue-400 hover:transform hover:scale-125 duration-300 ease-in-out"
+                                className="bg-red-400 w-full md:w-1/4 h-14 rounded-lg hover:bg-blue-400 hover:transform hover:scale-125 duration-300 ease-in-out"
                                 onClick={handleClick}
                             >
                                 About Me

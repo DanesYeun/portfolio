@@ -5,7 +5,7 @@ const BananaSeg = () => {
 
     return(
         <div className="w-full h-full">
-            <div className="border rounded-2xl h-1/2 overflow-hidden shadow-md">
+            <div className="border rounded-2xl h-fit md:h-1/2 overflow-hidden shadow-md">
                 <img src={image} alt="Photo" className="object-fill hover:transform transition hover:scale-150 transition duration-300 ease-in-out"/>
             </div>
             <div className="h-1/2">

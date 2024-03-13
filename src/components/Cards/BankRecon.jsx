@@ -4,7 +4,12 @@ const BankRecon = () => {
 
     return(
         <div className="h-full w-full border border-black">
-            BankRecon
+            <ul>
+                <li>asd</li>
+                <li>asd</li>
+                <li>asd</li>
+                <li>asd</li>
+            </ul>
         </div>
     );
 }
