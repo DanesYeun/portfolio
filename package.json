@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "master -d build -r git@github.com:DanesYeun/portfolio.git",
+    "deploy": "gh-pages -d build -r git@github.com:DanesYeun/portfolio.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
