@@ -38,18 +38,6 @@ const Projects = () => {
                     >
                         HRIS
                     </button>
-                    <button
-                        className={`rounded-xl hover:bg-blue2 ${activeTab === 2 ? 'bg-blue1 text-white1' : ''}`}
-                        onClick={() => handleTabClick(2)}
-                    >
-                        Bank Reconcillation
-                    </button>
-                    <button
-                        className={`rounded-xl hover:bg-blue2 ${activeTab === 3 ? 'bg-blue1 text-white1' : ''}`}
-                        onClick={() => handleTabClick(3)}
-                    >
-                        Biometrics API
-                    </button>
                 </div>
 
                 {/* display panel */}
