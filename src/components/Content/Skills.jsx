@@ -11,17 +11,17 @@ const Skill = () => {
     };
 
     return(
-        <div className="h-full w-full flex justify-center items-center">
+        <div className="flex justify-center items-center">
             <div className="w-full md:w-4/5 h-fit md:h-4/5 md:flex">
                 <div className="flex flex-col w-fit h-full p-2">
                     <h1 className="uppercase flex justify-center text-red-400">
-                        <TypingAnimation text={'want to work with me?'}/>
+                        <TypingAnimation text={'work with me!'}/>
                     </h1>
                     <h4 className="text-justify bg-blue1 p-2 rounded-2xl h-fit md:h-full text-white1">{Contents.CatchLine}</h4>
                 </div>
                 <div className="w-full h-full p-2 flex flex-col">
                     <h1 className="text-blue2 uppercase flex justify-center">my skills</h1>
-                    <div className="h-full grid grid-cols-2 md:grid-cols-7 items-center">
+                    <div className="h-full grid grid-cols-2 md:grid-cols-7 place-items-center gap-y-4">
                         <SiArduino size={50} style={{color: '#00979C'}}
                             className="hover:scale-150 transition duration-200 ease-in-out"/>
                         <SiCplusplus size={50} style={{color: '#044F88'}}

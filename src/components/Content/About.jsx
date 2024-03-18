@@ -29,7 +29,7 @@ const About = () => {
         <div className="flex flex-col items-center justify-center md:flex-row h-full">
             <div className="max-w-screen-sm max-h-screen-sm p-4">
                 <div className="bg-blue2 rounded-xl w-full h-full flex flex-col items-center p-2 text-white1">
-                    <div className="flex justify-center w-1/2 h-1/2">
+                    <div className="flex justify-center w-9/12 h-9/12 md:w-1/2 md:h-1/2">
                         <img src={image} alt="Photo" className="rounded-full w-5/6 hover:scale-150 transition duration-300 ease-in-out"/>
                     </div>
                     <div className="m-2 w-full h-full flex flex-col gap-y-2">
