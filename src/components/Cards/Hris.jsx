@@ -6,7 +6,7 @@ const Hris = () => {
 
     return(
         <div className="w-full h-full flex">
-            <div className="border-r w-1/2 grid grid-cols-1 p-2">
+            <div className="border-r w-1/2 flex flex-col justify-evenly p-2">
                 <div className="shadow-md h-fit rounded-2xl">
                     <img src={image1} alt="Photo_1" 
                         className="object-cover rounded-2xl hover:transform hover:scale-150 transition duration-300 ease-in-out"/>

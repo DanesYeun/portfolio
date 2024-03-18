@@ -12,7 +12,7 @@ const Skill = () => {
 
     return(
         <div className="flex justify-center items-center">
-            <div className="w-full md:w-4/5 h-fit md:h-4/5 md:flex">
+            <div className="w-full md:w-4/5 h-fit flex justify-center md:h-full md:flex">
                 <div className="flex flex-col w-fit h-full p-2">
                     <h1 className="uppercase flex justify-center text-red-400">
                         <TypingAnimation text={'work with me!'}/>
