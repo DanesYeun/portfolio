@@ -23,7 +23,7 @@ const Mainpage = () => {
             <div className="w-full h-14 flex justify-center mt-2 mb-4 overflow-hidden">
                 <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
             </div>
-            <div className="w-full h-full flex-grow overflow-x-hidden md:overflow-hidden">
+            <div className="w-full h-full flex-grow">
                 {getContent(activeTab)}
             </div>           
         </div>
