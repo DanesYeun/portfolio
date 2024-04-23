@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MartianMono';
-    src: url(D:\App\portfolio\src\assets\fonts\MartianMono-Regular.ttf) format('truetype');
+    src: url(D:\Personal\App\portfolio\src\assets\fonts\MartianMono-Regular.ttf) format('truetype');
 }
 @media (max-width: 768px) {
     .navbar {

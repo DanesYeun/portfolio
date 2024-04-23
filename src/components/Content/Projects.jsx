@@ -25,19 +25,19 @@ const Projects = () => {
             <div className="w-full md:w-3/4 bg-white1 rounded-xl h-full flex flex-col md:flex-row">
 
                 {/* sidebar */}
-                <div className="h-full w-full md:w-1/4 flex justify-center items-center md:flex md:flex-col p-2">
+                <div className="h-1/2  md:h-full w-full md:w-1/4 flex justify-center items-center md:flex md:flex-col p-2">
                     <button
                         className={`rounded-xl hover:bg-blue2 w-full h-full md:h-1/4 ${activeTab === 0 ? 'bg-blue1 text-white1' : ''}`}
                         onClick={() => handleTabClick(0)}
                     >
                         Banana Hand Class Segregator
                     </button>
-                    <button
+                    {/* <button
                         className={`rounded-xl hover:bg-blue2 h-full w-full md:h-1/4 ${activeTab === 1 ? 'bg-blue1 text-white1' : ''}`}
                         onClick={() => handleTabClick(1)}
                     >
                         HRIS
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* display panel */}

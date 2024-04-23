@@ -19,13 +19,13 @@ const Mainpage = () => {
     }
 
     return(
-        <div className="w-screen h-screen flex flex-col">       
-            <div className="w-full h-14 flex justify-center mt-2 mb-4">
-                <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
+        <div className="w-screen h-screen">       
+            <div className="mx-auto md:max-w-2xl h-16">
+               <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
             </div>
-            <div className="w-full h-full">
+            <div className="border rounded-xl bg-blue-400 mx-auto md:max-w-2xl h-4/5 m-2">
                 {getContent(activeTab)}
-            </div>           
+            </div>
         </div>
        
     );
