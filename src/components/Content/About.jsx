@@ -46,31 +46,6 @@ const About = () => {
                 </div>     
             </div>
         </div>
-        // <div className="flex flex-col items-center justify-center md:flex-row h-full">
-        //     <div className="max-w-screen-sm max-h-screen-sm p-4">
-        //         <div className="bg-blue2 rounded-xl w-full h-full flex flex-col items-center p-2 text-white1">
-        //             <div className="flex justify-center h-9/12 md:w-1/2 md:h-1/2">
-        //                 <img src={image} alt="Photo" className="transition duration-300 ease-in-out"/>
-        //             </div>
-        //             <div className="m-2 w-full h-full flex flex-col gap-y-2">
-        //                 <h2>Hello, I'm</h2>
-        //                 <h1 className="text-red-400">
-        //                     <TypingAnimation text={Profile.Name}/> 
-        //                 </h1>                  
-        //                 <h3>{Profile.Position}</h3>
-        //                 <body className="text-xs text-justify">{Profile.Bio}</body>
-        //                 <div className="w-full flex justify-center">
-        //                     <button 
-        //                         className="bg-red-400 w-full md:w-1/4 h-14 rounded-lg hover:bg-blue-400 hover:transform hover:scale-125 duration-300 ease-in-out"
-        //                         onClick={handleClick}
-        //                     >
-        //                         About Me
-        //                     </button>
-        //                 </div>
-        //             </div>  
-        //         </div>
-        //     </div>
-        // </div>
     );
 }
 
