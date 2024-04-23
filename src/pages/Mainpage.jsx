@@ -23,7 +23,7 @@ const Mainpage = () => {
             <div className="mx-auto md:max-w-2xl h-16">
                <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
             </div>
-            <div className="border rounded-xl bg-blue-400 mx-auto md:max-w-2xl h-4/5 m-2">
+            <div className="border rounded-xl bg-blue-400 mx-auto md:max-w-2xl md:h-4/5 mt-2">
                 {getContent(activeTab)}
             </div>
         </div>
