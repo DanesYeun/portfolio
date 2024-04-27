@@ -26,7 +26,7 @@ const About = () => {
 
 
     return(
-        <div className="h-full">
+        <div className="h-full p-2">
             <div className="w-2/5 m-auto place-items-center">
                 <img src={image} alt="Photo" className="rounded-full"/>
             </div>
@@ -38,7 +38,7 @@ const About = () => {
                 <body className="text-xs text-justify">{Profile.Bio}</body>
                 <div className="m-2 flex justify-center">
                     <button 
-                        className="bg-red-400 w-full md:w-1/4 h-14 rounded-lg hover:transform hover:scale-125 duration-300 ease-in-out m-auto"
+                        className="bg-red-400 w-full md:w-1/4 h-12 rounded-lg hover:transform hover:scale-125 duration-300 ease-in-out m-auto"
                         onClick={handleClick}
                     >
                         About Me
