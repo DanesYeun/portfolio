@@ -14,9 +14,9 @@ const Contact = () => {
     }
 
     return(
-        <div className="w-full h-full flex justify-center p-2">
+        <div className="w-full h-full flex justify-center p-2 text-white">
             <div 
-                className={`border rounded-2xl p-2 flex ${cardOpen === true ? 'w-full md:w-1/2 border-green-400' : 'w-1/2 md:w-1/4'}`} >
+                className={`border border-black rounded-2xl flex ${cardOpen === true ? 'w-full md:w-3/4 border-green-400' : 'md:w-1/2'}`} >
                 <div className={`h-full p-2 flex flex-col ${cardOpen === true ? 'w-full' : 'w-full'}`}>
                     <div className="flex-grow">
                         <img src={image3} 
@@ -31,7 +31,7 @@ const Contact = () => {
                     <div className="w-full h-1/5 flex flex-col">
                         <h4 className="flex justify-center">DevOps · Developer</h4>
                         <h5 
-                            className="flex justify-center hover:text-red-400">
+                            className="flex md:justify-center hover:text-red-400">
                             <a href="https://www.coredev.ph/" target="_blank>">
                             CoreDev Solutions Inc.
                             </a>
