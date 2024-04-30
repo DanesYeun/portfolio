@@ -9,7 +9,7 @@ const Projects = () => {
     const [activeTab, setActiveTab] = useState(0);
 
     const handleTabClick = (tab) => {
-        setActiveTab(activeTab === tab ? null : tab)
+        setActiveTab(activeTab === tab ? tab : tab)
     }
     
     const getCard = (activeTab) => {
@@ -21,31 +21,54 @@ const Projects = () => {
         }
     }
     return(
-        <div className="flex justify-center p-4 h-full">
-            <div className="w-full md:w-3/4 bg-white1 rounded-xl h-full flex flex-col md:flex-row">
+        <div className="w-full h-full border p-2">
+            <div className="flex h-full text-white">
 
                 {/* sidebar */}
-                <div className="h-1/2  md:h-full w-full md:w-1/4 flex justify-center items-center md:flex md:flex-col p-2">
-                    <button
-                        className={`rounded-xl hover:bg-blue2 w-full h-full md:h-1/4 ${activeTab === 0 ? 'bg-blue1 text-white1' : ''}`}
+                <div className="border w-1/4 rounded-l-xl p-2 flex flex-col justify-center space-y-2">
+                    <button className="p-2 hover:bg-blue-500 rounded-md"
                         onClick={() => handleTabClick(0)}
                     >
                         Banana Hand Class Segregator
                     </button>
-                    {/* <button
-                        className={`rounded-xl hover:bg-blue2 h-full w-full md:h-1/4 ${activeTab === 1 ? 'bg-blue1 text-white1' : ''}`}
-                        onClick={() => handleTabClick(1)}
+                    <button className="p-2 hover:bg-blue-500 rounded-md disabled"
+                        onClick={() => handleTabClick(null)}
                     >
-                        HRIS
-                    </button> */}
+                        Comming Soon
+                    </button>
                 </div>
 
-                {/* display panel */}
-                <div className="h-full w-full w-full md:w-4/5 p-2">
+                {/* mainview */}
+                <div className="border w-3/4 rounded-r-xl p-2">
                     {getCard(activeTab)}
                 </div>
             </div>
         </div>
+        // <div className="flex justify-center p-4 h-full">
+        //     <div className="w-full md:w-3/4 bg-white1 rounded-xl h-full flex flex-col md:flex-row">
+
+        //         {/* sidebar */}
+        //         <div className="h-1/2  md:h-full w-full md:w-1/4 flex justify-center items-center md:flex md:flex-col p-2">
+        //             <button
+        //                 className={`rounded-xl hover:bg-blue2 w-full h-full md:h-1/4 ${activeTab === 0 ? 'bg-blue1 text-white1' : ''}`}
+        //                 onClick={() => handleTabClick(0)}
+        //             >
+        //                 Banana Hand Class Segregator
+        //             </button>
+        //             {/* <button
+        //                 className={`rounded-xl hover:bg-blue2 h-full w-full md:h-1/4 ${activeTab === 1 ? 'bg-blue1 text-white1' : ''}`}
+        //                 onClick={() => handleTabClick(1)}
+        //             >
+        //                 HRIS
+        //             </button> */}
+        //         </div>
+
+        //         {/* display panel */}
+        //         <div className="h-full w-full w-full md:w-4/5 p-2">
+        //             {getCard(activeTab)}
+        //         </div>
+        //     </div>
+        // </div>
 
     );
 }
