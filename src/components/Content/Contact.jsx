@@ -16,7 +16,7 @@ const Contact = () => {
     return(
         <div className="w-full h-full flex justify-center p-2 text-white">
             <div 
-                className={`border border-black rounded-2xl flex ${cardOpen === true ? 'w-full md:w-3/4 border-green-400' : 'md:w-1/2'}`} >
+                className={`border rounded-2xl flex ${cardOpen === true ? 'w-full md:w-3/4 border-green-400' : 'md:w-1/2'}`} >
                 <div className={`h-full p-2 flex flex-col ${cardOpen === true ? 'w-full' : 'w-full'}`}>
                     <div className="flex-grow">
                         <img src={image3} 

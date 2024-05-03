@@ -21,17 +21,17 @@ const Projects = () => {
         }
     }
     return(
-        <div className="w-full h-full border p-2">
+        <div className="w-full h-full p-2">
             <div className="flex h-full text-white">
 
                 {/* sidebar */}
-                <div className="border w-1/4 rounded-l-xl p-2 flex flex-col justify-center space-y-2">
-                    <button className="p-2 hover:bg-blue-500 rounded-md"
+                <div className="border-r w-1/4 rounded-l-xl p-2 flex flex-col justify-center space-y-2">
+                    <button className={`p-2 rounded-md ${activeTab === 0 ? 'bg-blue-500 ' : 'hover:bg-blue-500'}`}
                         onClick={() => handleTabClick(0)}
                     >
                         Banana Hand Class Segregator
                     </button>
-                    <button className="p-2 hover:bg-blue-500 rounded-md disabled"
+                    <button className={`p-2 rounded-md ${activeTab === null ? 'bg-blue-500 ' : 'hover:bg-blue-500'}`}
                         onClick={() => handleTabClick(null)}
                     >
                         Comming Soon
@@ -39,7 +39,7 @@ const Projects = () => {
                 </div>
 
                 {/* mainview */}
-                <div className="border w-3/4 rounded-r-xl p-2">
+                <div className="w-3/4 rounded-r-xl p-2">
                     {getCard(activeTab)}
                 </div>
             </div>
