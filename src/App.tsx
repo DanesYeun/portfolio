@@ -5,7 +5,7 @@ import HomeRouter from "./app/navigation/router/HomeRouter"
 function App() {
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio">
             <Layout>
                 <HomeRouter />
             </Layout>
