@@ -1,12 +1,12 @@
 
 # Personal Portfolio
 
-    This is my personal porfolio, containing some of my information and projects. https://danesyeun.github.io/portfolio
+This is my personal porfolio, containing some of my information and projects. https://danesyeun.github.io/portfolio
 
 
 ## How to install locally
 
-    Steps on how to install the portfolio locally.
+Steps on how to install the portfolio locally.
 
 #### git clone
 
@@ -28,7 +28,7 @@
 
 ## Pushing changes to github pages
 
-    steps on how to push changes to github pages.
+steps on how to push changes to github pages.
 
 #### push to repo
 
