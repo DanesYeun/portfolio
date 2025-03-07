@@ -27,6 +27,12 @@ const HireMe = () => {
                 <br />
                 <div className="col-span-12">
                     <code className="flex items-center justify-center md:justify-start gap-8 uppercase">
+                        <a href="https://www.facebook.com/Dadadanesss/" 
+                            target="_blank" 
+                            className="text-black hover:text-black hover:underline"
+                        >
+                            facebook
+                        </a>
                         <a href="https://www.linkedin.com/in/clifford-danes-yaun-6b0172250" 
                             target="_blank" 
                             className="text-black hover:text-black hover:underline"
