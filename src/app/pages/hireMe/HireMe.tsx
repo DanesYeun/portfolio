@@ -4,6 +4,9 @@ import resume from '../../../assets/files/resume.pdf'
 import { Helmet } from "react-helmet"
 
 const HireMe = () => {
+    const currentYear = new Date().getFullYear();
+    const yearsExp = currentYear - 2023;
+
     return (
         <div className="grid grid-cols-12 gap-8">
             <Helmet>
@@ -15,7 +18,7 @@ const HireMe = () => {
             <div className="col-span-12 grid grid-cols-12 px-4 md:px-10 py-2 md:py-8 flex flex-col gap-2">
                 <code className="uppercase col-span-12">open for work</code>
                 <span className="text-2xl w-full md:w-3/4 col-span-12">
-                    I have been a software developer for almost 2 years. Each day growing more and more personally and professionally. I am open to new experiences and not afraid to take exta steps in in order to do what is needed to be done. I am confident with my skills and experience, that I can be a valuable asset to your company and team.
+                    I have been a software developer for almost {yearsExp} years. Each day growing more and more personally and professionally. I am open to new experiences and not afraid to take exta steps in in order to do what is needed to be done. I am confident with my skills and experience, that I can be a valuable asset to your company and team.
                 </span>
                 <br />
                 <span className="text-2xl w-full md:w-1/2 col-span-12">
